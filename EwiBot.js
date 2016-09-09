@@ -14,7 +14,7 @@ try {
 
 var bot = new Discord.Client();
 
-bot.loginWithToken("Bot" + AuthDetails.token)
+bot.loginWithToken("Bot " + AuthDetails.token)
 
 bot.on("message", function (message, server)
 
